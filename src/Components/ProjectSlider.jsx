@@ -33,10 +33,10 @@ slidesPerView={1}
         {activities.map((item, i) => (
           <SwiperSlide key={i}>
             <div className="activity-card">
-             <img src={`/assets/${item.image}`} alt={item.title} />
+             <img src={item.image} alt={item.title} />
               <h4>{item.title}</h4>
               <p>{item.description}</p>
-              <button><FaArrowAltCircleRight /> Learn More</button>
+              <button><FaArrowAltCircleRight /> Read More</button>
             </div>
           </SwiperSlide>
         ))}

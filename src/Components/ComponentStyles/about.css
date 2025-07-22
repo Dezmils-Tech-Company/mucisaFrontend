@@ -60,15 +60,15 @@
 }
 /* Different icon colors */
 .about-card:nth-child(1) {
-  background: url('../../assets/software.jpg')center/cover no-repeat; 
+  background: url('https://res.cloudinary.com/daecietav/image/upload/v1753200175/software_r1orhf.jpg')center/cover no-repeat; 
 }
 
 .about-card:nth-child(2){
- background: url('../../assets/networking.jpg')center/cover no-repeat;
+ background: url('https://res.cloudinary.com/daecietav/image/upload/v1753200157/networking_qbifje.jpg')center/cover no-repeat;
 }
 
 .about-card:nth-child(3) {
-background: url('../../assets/stats.jpg')center/cover no-repeat;
+background: url('https://res.cloudinary.com/daecietav/image/upload/v1753200139/stats_a0ator.jpg')center/cover no-repeat;
 }
 
 .about-value h3 {

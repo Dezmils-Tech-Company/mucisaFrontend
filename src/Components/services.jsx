@@ -14,6 +14,7 @@ export default function Services(){
   }, []);
     return(
         <>
+         <div className="service-container">
         <h2 className="services-title">What <span>We Do</span></h2>
         <Swiper 
          modules={[Navigation]}
@@ -27,7 +28,7 @@ export default function Services(){
         >
         {slides.map(slide => (
           <SwiperSlide key={slide._id}>
-            <div className="activity-card">
+            <div className="service-card">
               <img src={slide.image} alt={slide.title} />
               <h3>{slide.title}</h3>
               <p>{slide.description}</p>
@@ -35,6 +36,8 @@ export default function Services(){
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
         </>
+         
     )
 }

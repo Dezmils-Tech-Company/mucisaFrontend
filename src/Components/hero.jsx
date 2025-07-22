@@ -4,7 +4,6 @@ import './ComponentStyles/hero.css';
 import { useNavigate } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import {MdSupportAgent} from 'react-icons/md';
-import MCAAI from '../assets/MCAAI.png';
 
 const HeroSection = () => {
 const navigate = useNavigate();
@@ -54,10 +53,7 @@ const navigate = useNavigate();
           <button onClick={()=>navigate( '/contact')} className="join-btn">Talk to Us <MdSupportAgent className='hero-icon'/> </button>
         </motion.div>
 
-       <motion.div className='hero-partners'>
-        <h4>In Partnership with:</h4>
-        <img src={MCAAI} alt="MCAAI" />
-       </motion.div>
+       
       
       </motion.div>
     </div>
