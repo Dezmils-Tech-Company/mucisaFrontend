@@ -8,7 +8,7 @@ export default function Services(){
     const [slides, setSlides] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/ourservices')
+    fetch('https://mucisabackend.onrender.com/api/ourservices')
       .then(res => res.json())
       .then(data => setSlides(data));
   }, []);

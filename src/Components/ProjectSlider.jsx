@@ -12,7 +12,7 @@ const ProjectSlider = () => {
    const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/activities')
+    fetch('https://mucisabackend.onrender.com/api/activities')
       .then(res => res.json())
       .then(data => setActivities(data))
       .catch(err => console.error(err));
