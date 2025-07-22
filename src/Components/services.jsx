@@ -28,7 +28,7 @@ export default function Services(){
         {slides.map(slide => (
           <SwiperSlide key={slide._id}>
             <div className="activity-card">
-              <img src={`/assets/${slide.image}`} alt={slide.title} />
+              <img src={slide.image} alt={slide.title} />
               <h3>{slide.title}</h3>
               <p>{slide.description}</p>
             </div>
