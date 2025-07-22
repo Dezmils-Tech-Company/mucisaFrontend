@@ -1,0 +1,159 @@
+.hero-section {
+  background: url('../../assets/hero.jpg') center/cover no-repeat;
+  height: 92vh;
+  position: relative;
+  color: white;
+  display: flex;
+  text-align: left;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right, rgb(3, 3, 3),transparent );
+    max-width: 100%;
+}
+
+.hero-section h1 {
+    padding:0 1rem;
+  font-size: 3.5rem;
+  margin: 50px 0 0 0;
+}
+.hero-section h4 {
+    padding:0 1rem;
+    max-width: 75%;
+}
+
+.hero-section p {
+    margin:0.4rem 1.5rem;
+    padding:0 5px;
+  font-size: 14px;
+  max-width: 50%;
+  border-left: 2px solid var(--luxury);
+  border-radius: 4px;
+}
+
+.hero-buttons {
+  margin:1rem ;
+}
+
+.hero-buttons button {
+  margin: 0 10px 0 0 ;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.join-btn {
+  background-color: var(--luxury);
+  color: var(--text);
+  cursor: pointer;
+}
+.hero-icon{
+    font-size:20px;
+    margin:0 5px;
+}
+.hero-partners{
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 0 1rem;
+    width: 100%;
+
+    img{
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        font-size: 4px;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 14px;
+        padding: 0;
+    }
+}
+/* Responsive Design */
+@media (max-width: 1100px) {
+    .hero-section {
+    padding: 20px;
+    height: 98vh;
+}
+    .hero-section p {
+        font-size: 12px;
+  }
+
+}
+@media (max-width: 768px) {
+   .hero-section {
+    padding: 20px;
+    height: 97vh;
+}
+.overlay {
+  padding: 0.1rem;
+ 
+}
+.hero-section h1 {
+    margin: 20px 0 0 0;
+    font-size: 2rem;
+    max-width: 75%;
+}
+
+.hero-section h4 {
+        font-size: 14px;
+        margin: 0.5px;
+}
+
+  .hero-section p {
+    font-size: 12px;
+    max-width: 100%;
+  }
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons button {
+    margin:0.1rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .hero-partners{
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 0 1rem;
+
+    img{
+        width: 25px;
+        height: 25px;
+    }
+
+    h4{
+        font-size: 10px;
+    }
+}
+}
+
+@media (max-width: 480px) {
+   .hero-section {
+    padding: 20px;
+    height: 93vh;
+}
+.hero-section h4 {
+        font-size: 14px;
+        margin: 0.5px;
+}
+ .hero-section h1 {
+    margin: 20px 0 0 0;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    max-width: 100%;
+    }
+
+
+}

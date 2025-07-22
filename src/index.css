@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --primary:#0a0a23;
+  --secondary:#0505ed;
+   --luxury:#0bedf5;
+ --text:#010016;
+ --accent:#f0eefc;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: poppins, Inter, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fafafd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button {
+  font-family:  poppins, 'Roboto',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 
+    sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: var(--secondary);
+    border: none;
+    color: var(--accent);
+    padding:5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin:0 5px;
+}
